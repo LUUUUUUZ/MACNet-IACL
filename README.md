@@ -27,7 +27,9 @@ This repository contains the code for the paper "Intent Augmentation in Focus: A
    python run.py -h
    ```
 
-   In the 'outputs' folder, you'll find the training log file, which records the details of the training process. As an illustration, we've included a 'gowalla' log file as a sample.
+   In the 'outputs' folder, you'll find the training log file, which records the details of the training process. 
+   
+   As an illustration, we've included [a log file](outputs/2023-11-19-20-56-50-gowalla-MACNet.txt) on the Gowalla dataset as an example.
 
 ## Dataset Format
 You can train the models using your datasets. Each dataset should contain the following files:
@@ -40,7 +42,7 @@ You can train the models using your datasets. Each dataset should contain the fo
 
 - `edges.txt`: A TSV file containing the relations in the social network. It has two columns, `follower` and `followee`. Both columns contain the user IDs.
 
-You can see [datasets/delicious](datasets/delicious) for an example of the dataset.
+You can see [datasets/gowalla](datasets/gowalla) for an example of the dataset.
 
 
 ## Acknowledgment
